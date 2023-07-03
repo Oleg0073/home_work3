@@ -4,7 +4,7 @@ body{
 }
 
 body{
-    background-color: aqua;
+    background-color: rgb(231, 230, 230);
     max-width: 1240px;
 }
 
@@ -240,4 +240,85 @@ box-shadow: 0px 0px 1px 0px rgba(96, 96, 96, 0.10), 0px 12px 24px -6px rgba(96, 
     line-height: 1.2;
     background: #40c1a7;
     box-shadow: 0px 2px 2px -2px rgba(34, 38, 50, 0.3);;
+}
+
+.footer__banner-cookies{
+    margin: 60px;
+    display: inline-block;
+    width: 320px;
+    margin-right: 40px;
+    padding: 33px;
+    border-radius: 20px;
+background: linear-gradient(180deg, rgba(255, 255, 255, 0.15) 0%, rgba(186, 226, 255, 0.15) 23.96%, rgba(229, 217, 255, 0.15) 71.88%, rgba(255, 255, 255, 0.15) 100%), #FFF;
+box-shadow: 0px 8px 32px 0px rgba(10, 3, 89, 0.10);
+}
+
+.footer__banner-title{
+    color: #15295a;
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 1.71;
+    text-align: center;
+}
+
+.footer__banner-text{
+    margin-bottom: 32px;
+    color: #15295a;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.footer__banner-btn{
+    margin: 0 25%;
+    padding: 10px 32px;
+    border: 43px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.5;
+    border-radius: 6px;
+    background-color: #4A7EFF;
+}
+
+.end__banner{
+    margin: 60px;
+    display: inline-block;
+    vertical-align: top;
+    width: 320px;
+    padding: 16px;
+    border-radius: 16px;
+    border-radius: 4px;
+background: #FFF;
+box-shadow: 0px 8px 32px 0px rgba(10, 3, 89, 0.10);
+}
+
+.end__banner-text{
+    margin-bottom: 12px;
+    color: #000;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+
+}
+
+.end__banner-link-policy{
+    color: #66F;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 1.2;
+
+}
+
+.end__banner-linkaccept{
+    margin-left: 140px;
+    padding: 8px;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: #66F;
 }
